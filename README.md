@@ -7,19 +7,19 @@ Floods are among the most destructive natural disasters, affecting millions of p
 
 # Dataset
 
-File: flood.csv
-Size: 50,000 rows × 21 columns
-Features :
-1. MonsoonIntensity
-2. TopographyDrainage
-3. Urbanization
-4. Deforestation
-5. ClimateChange
-6. DamsQuality
-7. DrainageSystems
-8. CoastalVulnerability
-9. PopulationScore
-10. FloodProbability (Target Variable)
+- File: flood.csv
+- Size: 50,000 rows × 21 columns
+- Features :
+  - MonsoonIntensity
+  - TopographyDrainage
+  - Urbanization
+  - Deforestation
+  - ClimateChange
+  - DamsQuality
+  - DrainageSystems
+  - CoastalVulnerability
+  - PopulationScore
+  - FloodProbability (Target Variable)
 
 All features are numeric (int64) with no missing values.
 
@@ -35,13 +35,13 @@ All features are numeric (int64) with no missing values.
 
 # Tech Stack
 
-Language: Python 
-Libraries:
-pandas, numpy (data handling)
-seaborn, matplotlib (visualization)
-scikit-learn (ML models)
-xgboost / lightgbm (boosting models)
-streamlit (deployment - optional)
+- Language: Python 
+- Libraries:
+  - pandas, numpy (data handling)
+  - seaborn, matplotlib (visualization)
+  - scikit-learn (ML models)
+  - xgboost / lightgbm (boosting models)
+  - streamlit (deployment - optional)
 
 
 # Methodology
