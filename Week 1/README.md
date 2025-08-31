@@ -23,12 +23,10 @@ In week 1, the main focus is on understanding the dataset by exploring its struc
    - Count of unique values per column
 
 5. Data Relationships
-  - Correlation Matrix of numerical columns
-  - Correlation Heatmap for visual insights
+   - Correlation Matrix of numerical columns
+   - Correlation Heatmap for visual insights
 
 6. Visualizations
-  - Histograms – Distribution of numerical features
-
-Boxplots – Outlier detection
-
-Correlation Heatmap – Feature relationships
+   - Histograms – Distribution of numerical features
+   - Boxplots – Outlier detection
+   - Correlation Heatmap – Feature relationships
