@@ -41,7 +41,7 @@ All features are numeric (int64) with no missing values.
   - seaborn, matplotlib (visualization)
   - scikit-learn (ML models)
   - xgboost / lightgbm (boosting models)
-  - streamlit (deployment - optional)
+  - streamlit (deployment)
 
 
 # Methodology
