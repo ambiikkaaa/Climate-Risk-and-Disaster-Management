@@ -1,32 +1,35 @@
-# Week 1 : Understanding the data
+# Climate Risk and Disaster Management  
 
-In week 1, the main focus is on understanding the dataset by exploring its structure, summary statistics, missing values, correlations, and visualizations.
+This repository contains weekly progress for the project **Climate Risk and Disaster Management**, focusing on analyzing flood datasets to identify risks, trends, and key predictive features.  
 
-# Steps Performed
+---
 
-1. Importing Libraries
-   - pandas – Data handling
-   - numpy – Numerical computations
-   - matplotlib & seaborn – Data visualization
+## Week 1: Understanding the Data  
+In Week 1, the focus was on **getting familiar with the dataset**.  
+The following steps were performed:  
+- Imported necessary libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`).  
+- Loaded the dataset (`flood.csv`).  
+- Displayed the **first few rows** to understand structure.  
+- Checked **data types, missing values, duplicates**, and **unique values**.  
+- Generated **statistical summaries** for numerical columns.  
+- Created **correlation matrix** to see relationships between numerical features.  
 
-2. Loading the Dataset
-   - Loaded dataset: flood.csv
+*Outcome:* Basic understanding of dataset, its quality, and relationships between variables.  
 
-3. Initial Exploration
-   - Displayed first few rows (head())
-   - Checked column details, datatypes, and non-null counts (info())
-   - Summarized numerical features (describe())
+---
 
-4. Data Quality Checks
-   - Missing values check (isnull().sum())
-   - Duplicate rows check (duplicated().sum())
-   - Count of unique values per column
+## Week 2: EDA, Data Transformation, and Feature Selection  
+In Week 2, the project moved towards **data exploration and preparation** for modeling.  
+The following steps were carried out:  
+- **Distribution Plots:** Visualized the spread of numerical features.  
+- **Correlation Heatmap:** Identified strong correlations between variables.  
+- **Boxplots:** Detected outliers in the dataset.  
+- **Skewness Analysis:** Checked imbalance in data distribution.  
+- **Standard Scaling:** Normalized independent features for consistency.  
+- **Feature Importance:** Used `RandomForestRegressor` to rank features based on their impact on predicting flood probability.  
 
-5. Data Relationships
-   - Correlation Matrix of numerical columns
-   - Correlation Heatmap for visual insights
+*Outcome:* Clear insights on important features, data normalization, and handling skewness/outliers for future modeling.  
 
-6. Visualizations
-   - Histograms – Distribution of numerical features
-   - Boxplots – Outlier detection
-   - Correlation Heatmap – Feature relationships
+---
+
+## 🗂️ Repository Structure  
