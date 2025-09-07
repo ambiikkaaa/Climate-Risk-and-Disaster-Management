@@ -1,5 +1,4 @@
-This contains weekly progress for the project **Flood Prediction using Machine Learning**, focusing on analyzing flood datasets to identify risks, trends, and key predictive features.  
-
+This contains weekly progress for the project **Flood Prediction using Machine Learning**.
 ---
 
 ## Week 1: Understanding the Data  
