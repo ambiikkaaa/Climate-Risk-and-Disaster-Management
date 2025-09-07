@@ -1,4 +1,4 @@
-This contains weekly progress for the project **Flood Prediction using Machine Learning**.
+This contains weekly progress for the project Flood Prediction using Machine Learning.
 ---
 
 ## Week 1: Understanding the Data  
