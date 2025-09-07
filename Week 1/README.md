@@ -1,6 +1,4 @@
-# Climate Risk and Disaster Management  
-
-This repository contains weekly progress for the project **Climate Risk and Disaster Management**, focusing on analyzing flood datasets to identify risks, trends, and key predictive features.  
+This contains weekly progress for the project **Flood Prediction using Machine Learning**, focusing on analyzing flood datasets to identify risks, trends, and key predictive features.  
 
 ---
 
@@ -31,5 +29,3 @@ The following steps were carried out:
 *Outcome:* Clear insights on important features, data normalization, and handling skewness/outliers for future modeling.  
 
 ---
-
-## 🗂️ Repository Structure  
