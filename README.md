@@ -27,30 +27,29 @@ Source : https://www.kaggle.com/datasets/naiyakhalid/flood-prediction-dataset
 
 # Objectives
 
-1. Perform EDA to understand key factors influencing floods.
-2. Build ML models (Linear Regression, Random Forest, XGBoost) to predict Flood Probability.
-3. Evaluate models using metrics like R², RMSE.
-4. Identify the most important features contributing to floods.
-5. Deploy an interactive app using Streamlit for real-time flood risk prediction.
+1. Understand and preprocess real-world flood data.
+2. Perform EDA with visualizations (heatmaps, histograms, boxplots).
+3. Apply data transformation and feature selection techniques.
+4. Train and evaluate a Random Forest Classifier for flood risk prediction.
+5. Build a Streamlit web interface for easy user interaction and predictions.
 
 
 # Tech Stack
 
-- Language: Python 
-- Libraries:
-  - pandas, numpy (data handling)
-  - seaborn, matplotlib (visualization)
-  - scikit-learn (ML models)
-  - xgboost / lightgbm (boosting models)
-  - streamlit (deployment)
+- **Programming Language**: Python   
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Joblib  
+- **Machine Learning Model**: Random Forest Classifier  
+- **Web Framework**: Streamlit  
+- **Version Control**: Git & GitHub
 
 
 # Methodology
 
-1. Data Loading & Cleaning – Load dataset, check datatypes, null values.
-2. Exploratory Data Analysis (EDA) – Correlation heatmaps, feature-target relationships.
-3. Preprocessing – Scaling, train-test split.
-4. Modeling – Train Linear Regression, Random Forest, XGBoost.
-5. Evaluation – Compare models with R² and RMSE.
-6. Feature Importance – Identify top contributors (e.g., MonsoonIntensity, Urbanization).
-7. Deployment – Build an interactive prediction tool.
+1. **Data Collection** – Import flood dataset (CSV).  
+2. **Data Understanding** – Explore dataset structure, missing values, summary stats.  
+3. **EDA** – Distribution plots, correlation heatmap, outlier detection.  
+4. **Data Preprocessing** – Scaling & transformation of features.  
+5. **Feature Selection** – Identify most important predictors.  
+6. **Model Training** – Train Random Forest Classifier on processed data.  
+7. **Model Evaluation** – Accuracy, confusion matrix, feature importance.  
+8. **Deployment** – Create a Streamlit app for real-time predictions.
